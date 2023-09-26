@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question&Answer</title>
+</head>
+<body>
+    <form action="mailto:amammadzada12875@ada.edu.az" method="POST">
+        <label for="fname">FirstName</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your name" required> <br>
+
+        <label for="lname">LastName</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required> <br>
+
+        <fieldset>
+            <legend>Choose your gender</legend>
+            <input type="radio" id="male" name="gender" value="MALE" checked>
+            <label for="male">Male</label> <br>
+
+            <input type="radio" id="female" name="gender" value="FEMALE">
+            <label for="female">Female</label> <br>
+
+            <input type="radio" id="other" name="gender" value="OTHER">
+            <label for="other">Other</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select your favorite fields</legend>
+            <input type="checkbox" name="field" id="field_ai" value="ai">
+            <label for="field_ai">Artificial Intelligence</label> <br>
+            <input type="checkbox" name="field" id="field_cg" value="compgraph">
+            <label for="field_cg">Computer Graphics</label> <br>
+            <input type="checkbox" name="field" id="field_iot" value="IoT">
+            <label for="field_iot">Internet of Things</label> <br>
+        </fieldset>
+
+            <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
