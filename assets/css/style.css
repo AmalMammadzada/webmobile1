@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(178, 178, 178);
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+}
+
+h3 {
+    color: rgb(0, 255, 34);
+}
+
+#email {
+    color: aqua;
+}
