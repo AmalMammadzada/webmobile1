@@ -14,3 +14,7 @@ h3 {
 #email {
     color: aqua;
 }
+
+.rand_img {
+  border-radius: 50px;
+}
