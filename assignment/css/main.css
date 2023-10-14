@@ -15,24 +15,25 @@ a {
 }
 
 .header-main-logo {
-    display: flex;
     width: fit-content;
     height: 100%;
-    background-color: yellow;
+    padding-left: 50px;
+    display: flex;
 }
 
 .header-main-logo img {
     height: 80px;
+    align-self: center;
 }
 
 .header-main-nav {
     width: fit-content;
     height: 100%;
-    background-color: orange;
 }
 
 .header-main-nav ul {
     list-style: none;
+    margin-left: 30px;
 }
 
 .header-main-nav ul li {
@@ -41,11 +42,36 @@ a {
 }
 
 .header-main-nav ul li a {
-    
+    padding: 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+    color: #000;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover {
+    color: #800080;
 }
 
 .header-main-sm {
-    width: 120px;
+    width: fit-content;
     height: 100%;
-    background-color: red;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-sm-github {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/github-50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-github:hover {
+    background-image: url(../img/github-50-hover.png);
+
 }
