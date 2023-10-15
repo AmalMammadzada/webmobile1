@@ -1,5 +1,15 @@
 body {
     background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px; /* Add padding to prevent header content overlap */
 }
 
 a {
@@ -12,12 +22,15 @@ a {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
+    position: fixed; /* Make header fixed */
+    top: 0; /* Set the header to top */
+    z-index: 1000; /* Ensure header is above all other elements */
 }
 
 .header-main-logo {
     width: fit-content;
     height: 100%;
-    padding-left: 50px;
+    padding-left: 40px;
     display: flex;
 }
 
@@ -57,7 +70,7 @@ a {
 .header-main-sm {
     width: fit-content;
     height: 100%;
-    padding-right: 50px;
+    padding-right: 60px;
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -74,4 +87,41 @@ a {
 .header-main-sm-github:hover {
     background-image: url(../img/github-50-hover.png);
 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.text {
+    width: 60%;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 30%;
+    text-align: center;
+}
+
+.profile-image {
+    width: 400px; /* Make the circle 2 times bigger */
+    height: 400px; /* Make the circle 2 times bigger */
+    border-radius: 50%;
+    background-color: #800080; /* Change the color to purple (#800080) */
+    margin: 0 auto;
+    /* You can replace this with your profile picture URL */
+    background-image: url('your-profile-picture.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
