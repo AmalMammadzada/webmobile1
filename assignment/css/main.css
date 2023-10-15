@@ -113,7 +113,7 @@ a {
     background-color: #800080; /* Change the color to purple (#800080) */
     margin: 0 auto;
     /* You can replace this with your profile picture URL */
-    background-image: url('your-profile-picture.jpg');
+    background-image: url('');
     background-size: cover;
     background-position: center;
 }
