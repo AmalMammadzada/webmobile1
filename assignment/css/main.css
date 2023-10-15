@@ -22,7 +22,7 @@ a {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
-    position: fixed; /* Make header fixed */
+    position: fixed;
     top: 0; /* Set the header to top */
     z-index: 1000; /* Ensure header is above all other elements */
 }
@@ -94,11 +94,20 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .text {
     width: 60%;
     padding: 20px;
+}
+
+.intro {
+    line-height: 100px;
+}
+
+.bio {
+    line-height: 30px;
 }
 
 .profile-picture {
@@ -107,13 +116,12 @@ a {
 }
 
 .profile-image {
-    width: 400px; /* Make the circle 2 times bigger */
-    height: 400px; /* Make the circle 2 times bigger */
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
-    background-color: #800080; /* Change the color to purple (#800080) */
+    background-color: #800080;
     margin: 0 auto;
-    /* You can replace this with your profile picture URL */
-    background-image: url('');
+    background-image: url('../img/pp.jpeg');
     background-size: cover;
     background-position: center;
 }
